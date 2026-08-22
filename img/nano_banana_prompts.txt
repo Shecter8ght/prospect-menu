@@ -1,0 +1,884 @@
+﻿ПРОМПТЫ ДЛЯ ГЕНЕРАЦИИ ИЗОБРАЖЕНИЙ МЕНЮ — Prospect Кейтеринг
+212 позиций, соответствуют menu.json (версия 2026-08)
+
+КАК ПОЛЬЗОВАТЬСЯ
+1. Формат вывода: 4:3, сохранять в .webp шириной 640 px.
+2. Имя файла брать из строки под названием блюда — оно совпадает с полем img в menu.json.
+   Класть всё в одну папку, путь к ней прописать в IMG_BASE в коде блока T123.
+3. Генерировать подряд в одной сессии — модель удерживает стиль между кадрами,
+   подборка получится ровнее, чем если делать вразнобой.
+4. Первым сгенерировать «Канапе с камамбером и виноградом» — он задаёт эталон света и фона.
+   Если результат нравится, дальше можно добавлять к промптам: "same lighting and background as before".
+
+ЕДИНЫЙ СТИЛЬ
+Фон везде один: clean neutral light-beige. Свет мягкий боковой. Реквизита, рук, текста и логотипов нет.
+Ракурс и подача меняются по типу блюда — это сделано намеренно, чтобы каталог не выглядел монотонно:
+  30° тёмный сланцевый борд   — канапе, тарталетки, профитроли, брускетты, закуски (72 шт)
+  45° белая керамика          — горячее, гарниры, мексиканка (38 шт)
+  60° белая пиала             — салаты (16 шт)
+  35° десертная тарелка       — десерты (9 шт)
+  40° корзина с льном         — выпечка (8 шт)
+  20° стекло на просвет       — напитки (8 шт)
+  40° большое белое плато     — плато, нарезки, фрукты (14 шт)
+  30° крафтовая обёртка       — станции: покеты, хот-дог, блины (9 шт)
+  фронтально, студийный свет  — аренда, оборудование, услуги (34 шт)
+
+ЕСЛИ РЕЗУЛЬТАТ НЕ НРАВИТСЯ
+Слишком «стоково» — убрать restaurant catering presentation, добавить natural imperfect home-style plating.
+Слишком тёмно — заменить soft natural side lighting на bright airy daylight from the left.
+Еда выглядит пластиковой — добавить visible texture, crumbs, natural food imperfections.
+
+ВАЖНО
+Ни одно изображение не является фотографией реального блюда. На сайте обязателен дисклеймер
+«Изображение создано нейросетью и носит ознакомительный характер» — см. §12 ТЗ.
+
+======================================================================
+
+[1/212] Профитроли с лососем и огурцом
+profitroli_s_lososem_i_ogurcom.webp
+Professional food photography of a choux pastry profiterole filled with salmon cucumber, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[2/212] Профитроли с ростбифом и гранатом
+profitroli_s_rostbifom_i_granatom.webp
+Professional food photography of a choux pastry profiterole filled with rare roast beef pomegranate seeds, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[3/212] Профитроли с копченой курицей, яйцом и свежим огурцом
+profitroli_s_kopchenoy_kuricey_yaycom_i_svezhim_.webp
+Professional food photography of a choux pastry profiterole filled with smoked chicken, chopped egg and fresh cucumber, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[4/212] Профитроли с грибами и сыром
+profitroli_s_gribami_i_syrom.webp
+Professional food photography of a choux pastry profiterole filled with mushrooms cheese, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[5/212] Профитроли с креветкой и красной икрой
+profitroli_s_krevetkoy_i_krasnoy_ikroy.webp
+Professional food photography of a choux pastry profiterole filled with a prawn red salmon roe, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[6/212] Профитроли с паштетом из печени
+profitroli_s_pashtetom_iz_pecheni.webp
+Professional food photography of a choux pastry profiterole filled with chicken liver pâté, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[7/212] Тарталетка с креветкой и творожным сыром
+tartaletka_s_krevetkoy_i_tvorozhnym_syrom.webp
+Professional food photography of a savoury shortcrust tartlet filled with a prawn cream cheese, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[8/212] Тарталетка с икрой палтуса
+tartaletka_s_ikroy_paltusa.webp
+Professional food photography of a savoury shortcrust tartlet filled with halibut caviar, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[9/212] Тарталетка с копченым угрем
+tartaletka_s_kopchenym_ugrem.webp
+Professional food photography of a savoury shortcrust tartlet filled with smoked eel, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[10/212] Тарталетка с мидиями
+tartaletka_s_midiyami.webp
+Professional food photography of a savoury shortcrust tartlet filled with mussels, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[11/212] Тарталетка с уткой и мандарином
+tartaletka_s_utkoy_i_mandarinom.webp
+Professional food photography of a savoury shortcrust tartlet filled with duck mandarin, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[12/212] Тарталетка с сливочным сыром и лососем шеф посола
+tartaletka_s_slivochnym_syrom_i_lososem_shef_pos.webp
+Professional food photography of a savoury shortcrust tartlet filled with cream cheese chef-cured salmon, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[13/212] Тарталетка с лососевой икрой и сливочным маслом
+tartaletka_s_lososevoy_ikroy_i_slivochnym_maslom.webp
+Professional food photography of a savoury shortcrust tartlet filled with salmon roe butter, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[14/212] Тарталетка с оливье с курицей
+tartaletka_s_olive_s_kuricey.webp
+Professional food photography of a savoury shortcrust tartlet filled with Russian olivier salad with chicken, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[15/212] Тарталетка жульен (курица, грибы, лук, сливки)
+tartaletka_zhulen_kurica_griby_luk_slivki.webp
+Professional food photography of a savoury tartlet filled with creamy chicken and mushroom julienne, baked golden, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[16/212] Тарталетка с языком и грибами
+tartaletka_s_yazykom_i_gribami.webp
+Professional food photography of a savoury shortcrust tartlet filled with beef tongue mushrooms, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[17/212] Тарталетка с ветчинным муссом
+tartaletka_s_vetchinnym_mussom.webp
+Professional food photography of a savoury shortcrust tartlet filled with whipped ham mousse, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[18/212] Тарталетка с грибным кремом
+tartaletka_s_gribnym_kremom.webp
+Professional food photography of a savoury shortcrust tartlet filled with creamy mushroom pâté, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[19/212] Тарталетка с салатом из печени трески, яйцом и сыром
+tartaletka_s_salatom_iz_pecheni_treski_yaycom_i_.webp
+Professional food photography of a savoury shortcrust tartlet filled with cod liver salad with chopped egg and cheese, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[20/212] Тарталетка с салатом из курицы с ананасами и сыром
+tartaletka_s_salatom_iz_kuricy_s_ananasami_i_syr.webp
+Professional food photography of a savoury shortcrust tartlet filled with chicken salad with pineapple and cheese, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[21/212] Запеченая тарталетка с курицей и сыром
+zapechenaya_tartaletka_s_kuricey_i_syrom.webp
+Professional food photography of a baked shortcrust tartlet with golden cheese crust, filled with chicken cheese, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[22/212] Запеченая тарталетка с курицей, ветчиной и сырным соусом
+zapechenaya_tartaletka_s_kuricey_vetchinoy_i_syr.webp
+Professional food photography of a baked shortcrust tartlet with chicken and ham in cheese sauce, golden crust, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[23/212] Запеченная тарталетка с грибами, сливочным соусом и сыром
+zapechennaya_tartaletka_s_gribami_slivochnym_sou.webp
+Professional food photography of a baked shortcrust tartlet with golden cheese crust, filled with mushrooms, cream sauce cheese, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[24/212] Круассан с лососем
+kruassan_s_lososem.webp
+Professional food photography of a mini butter croissant filled with salmon, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[25/212] Круасcан с ветчиной сыром зеленью
+kruascan_s_vetchinoy_syrom_zelenyu.webp
+Professional food photography of a mini butter croissant filled with ham cheese fresh herbs, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[26/212] Круасcан с запеченной курицей зеленью, огурцом
+kruascan_s_zapechennoy_kuricey_zelenyu_ogurcom.webp
+Professional food photography of a mini butter croissant filled with roasted chicken, cucumber and fresh herbs, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[27/212] Круассан с лососем огурцом и зеленью
+kruassan_s_lososem_ogurcom_i_zelenyu.webp
+Professional food photography of a mini butter croissant filled with salmon cucumber fresh herbs, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[28/212] Канапе с камамбером и виноградом
+kanape_s_kamamberom_i_vinogradom.webp
+Professional food photography of a canapé on a wooden cocktail skewer: camembert and a grape, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[29/212] Канапе с телячим языком и медово-горчичным соусом
+kanape_s_telyachim_yazykom_i_medovo_gorchichnym_.webp
+Professional food photography of a canapé on a wooden cocktail skewer: veal tongue with honey mustard sauce, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[30/212] Канапе с креветкой , сыром, малина (оливка)
+kanape_s_krevetkoy_syrom_malina_olivka.webp
+Professional food photography of a canapé on a wooden cocktail skewer: a prawn, cheese and a raspberry, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[31/212] Канапе с клубникой и сыром
+kanape_s_klubnikoy_i_syrom.webp
+Professional food photography of a canapé on a wooden cocktail skewer: strawberry and soft cheese, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[32/212] Канапе с мясным деликатесом
+kanape_s_myasnym_delikatesom.webp
+Professional food photography of a canapé on a wooden cocktail skewer: folded cured meat with a vegetable garnish, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[33/212] Канапе клубника, банан, киви
+kanape_klubnika_banan_kivi.webp
+Professional food photography of a fruit canapé on a wooden cocktail skewer: strawberry, banana and kiwi, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[34/212] Канапе с маслиной, черри, моцарелла, базилик
+kanape_s_maslinoy_cherri_mocarella_bazilik.webp
+Professional food photography of a canapé on a wooden cocktail skewer: black olive, cherry tomato, mozzarella and basil, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[35/212] Канапе с окороком
+kanape_s_okorokom.webp
+Professional food photography of a canapé on a wooden cocktail skewer: folded smoked gammon with a vegetable garnish, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[36/212] Канапе с финиками и сыром Фета
+kanape_s_finikami_i_syrom_feta.webp
+Professional food photography of a canapé on a wooden cocktail skewer: a date stuffed with feta, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[37/212] Шарики сырные с миндалем
+shariki_syrnye_s_mindalem.webp
+Professional food photography of cheese balls coated in toasted almond flakes, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[38/212] Брускетта с томатами моцареллой и соусом песто
+brusketta_s_tomatami_mocarelloy_i_sousom_pesto.webp
+Professional food photography of a bruschetta on a toasted baguette slice topped with tomatoes mozzarella pesto, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[39/212] Брускетта с ростбифом сливочным сыром и маринованным огурчиком, руккола
+brusketta_s_rostbifom_slivochnym_syrom_i_marinov.webp
+Professional food photography of a bruschetta on toasted baguette with rare roast beef, cream cheese, pickled cucumber and rocket, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[40/212] Брускетта с копченым угрем
+brusketta_s_kopchenym_ugrem.webp
+Professional food photography of a bruschetta on a toasted baguette slice topped with smoked eel, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[41/212] Брускетта с креветками
+brusketta_s_krevetkami.webp
+Professional food photography of a bruschetta on a toasted baguette slice topped with prawns, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[42/212] Брускетта с анчоусами
+brusketta_s_anchousami.webp
+Professional food photography of a bruschetta on a toasted baguette slice topped with anchovies, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[43/212] Брускетта со страчателлой и вишней
+brusketta_so_strachatelloy_i_vishney.webp
+Professional food photography of a bruschetta on a toasted baguette slice topped with stracciatella cherry, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[44/212] Брускетта с лососем, рукколой, сливочным сыром и соусом
+brusketta_s_lososem_rukkoloy_slivochnym_syrom_i_.webp
+Professional food photography of a bruschetta on toasted baguette with salmon, rocket, cream cheese and sauce, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[45/212] Брускетта капрезе
+brusketta_kapreze.webp
+Professional food photography of a caprese bruschetta on toasted baguette with tomato, mozzarella and basil, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[46/212] Брускетта с хамоном и сливой (хурма инжир по сезону)
+brusketta_s_hamonom_i_slivoy_hurma_inzhir_po_sez.webp
+Professional food photography of a bruschetta on toasted baguette with jamon and fresh plum, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[47/212] Брускетта овощной с баклажанами и цуккини
+brusketta_ovoschnoy_s_baklazhanami_i_cukkini.webp
+Professional food photography of a vegetable bruschetta on toasted baguette with grilled aubergine and courgette, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[48/212] Брускетта с куриным филе и карамелизованным луком
+brusketta_s_kurinym_file_i_karamelizovannym_luko.webp
+Professional food photography of a bruschetta on a toasted baguette slice topped with chicken breast caramelised onion, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[49/212] Брускетта с мясным деликатесом и огурцом св
+brusketta_s_myasnym_delikatesom_i_ogurcom_sv.webp
+Professional food photography of a bruschetta on a toasted baguette slice topped with cured meat cucumber, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[50/212] Брускетта с нежной с/с семгой шеф посола и сливочным сыром
+brusketta_s_nezhnoy_s_s_semgoy_shef_posola_i_sli.webp
+Professional food photography of a bruschetta on toasted baguette with chef-cured salmon and cream cheese, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[51/212] Брускетта с ростбифом и вялеными томатами
+brusketta_s_rostbifom_i_vyalenymi_tomatami.webp
+Professional food photography of a bruschetta on a toasted baguette slice topped with rare roast beef sun-dried tomatoes, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[52/212] Мини сэндвич с лососем
+mini_sendvich_s_lososem.webp
+Professional food photography of a mini sandwich with salmon, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[53/212] Мини сэндвич с росбифом и вялеными томатами
+mini_sendvich_s_rosbifom_i_vyalenymi_tomatami.webp
+Professional food photography of a mini sandwich with rare roast beef sun-dried tomatoes, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[54/212] Мини Сэндвич Клаб (ветчина, сыр, салат, помидор, зелень)
+mini_sendvich_klab_vetchina_syr_salat_pomidor_ze.webp
+Professional food photography of a mini club sandwich with ham, cheese, lettuce, tomato and herbs, held with a skewer, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[55/212] Мини Сэндвич Цезарь с запеченым куриного филе, помидор, салат, соусом Цезарь
+mini_sendvich_cezar_s_zapechenym_kurinogo_file_p.webp
+Professional food photography of a mini caesar sandwich with roasted chicken breast, tomato, lettuce and caesar dressing, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[56/212] Мини - Чизбургеры (булка, микс салата, сыр чедер, котлета говядины, огурчиу маринов, лук, кетчуп)
+mini_chizburgery_bulka_miks_salata_syr_cheder_ko.webp
+Professional food photography of a mini cheeseburger with beef patty, cheddar, mixed leaves, pickled cucumber, onion and ketchup, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[57/212] Мини Бургеры ( булка, микс салата, котлета гов, огурец мар, лук, кетчуп)
+mini_burgery_bulka_miks_salata_kotleta_gov_ogure.webp
+Professional food photography of a mini slider burger with beef patty, mixed leaves, pickled cucumber, onion and ketchup, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[58/212] Шот с моцареллой, виноградом, помидором черри и соусом песто
+shot_s_mocarelloy_vinogradom_pomidorom_cherri_i_.webp
+Professional food photography of a verrine in a small clear glass: mozzarella, grapes, tomato cherry tomatoes pesto, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[59/212] Шот с креветкой и сливочным песто
+shot_s_krevetkoy_i_slivochnym_pesto.webp
+Professional food photography of a verrine in a small clear glass with a prawn and creamy pesto, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[60/212] Сочные блинчики c ломтиками слабосоленой семги
+sochnye_blinchiki_c_lomtikami_slabosolenoy_semgi.webp
+Professional food photography of rolled thin crepes filled with slices of lightly salted salmon, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[61/212] Сельдь на ржаном хлебе с маринованым луком шеф посола
+seld_na_rzhanom_hlebe_s_marinovanym_lukom_shef_p.webp
+Professional food photography of an open sandwich on dark rye bread with chef-cured herring fillet and pickled onion, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[62/212] Ростбиф розовой прожарки с соусом Тоннато
+rostbif_rozovoy_prozharki_s_sousom_tonnato.webp
+Professional food photography of slices of rare pink roast beef with tonnato sauce, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[63/212] Рулет из ветчины с сыром и паприкой
+rulet_iz_vetchiny_s_syrom_i_paprikoy.webp
+Professional food photography of a rolled roulade of ham cheese paprika, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[64/212] Рулетик из цукини с творожной начинкой
+ruletik_iz_cukini_s_tvorozhnoy_nachinkoy.webp
+Professional food photography of small courgette ribbon rolls filled with soft curd cheese, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[65/212] Пармская ветчина с грушей и ягодным соусом
+parmskaya_vetchina_s_grushey_i_yagodnym_sousom.webp
+Professional food photography of parma ham with fresh pear slices and berry sauce, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[66/212] Мясное плато: рулет из нежной курочки, домашняя ветчина, ломтики буженины
+myasnoe_plato_rulet_iz_nezhnoy_kurochki_domashny.webp
+Professional food photography of a cold cut platter of chicken roulade, home-style ham and sliced roast pork, arranged on a large white ceramic platter, soft natural side lighting, 40-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[67/212] Мясные деликатесы: говядина, буженина, куриный рулет с овощами с нежным сливочным хреном и горчицей
+myasnye_delikatesy_govyadina_buzhenina_kurinyy_r.webp
+Professional food photography of a cold cut platter of beef, roast pork and chicken roulade with creamy horseradish and mustard, arranged on a large white ceramic platter, soft natural side lighting, 40-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[68/212] Рулет из баклажан с грецкими орехами и кремчизом
+rulet_iz_baklazhan_s_greckimi_orehami_i_kremchiz.webp
+Professional food photography of a rolled roulade of aubergine walnuts cream cheese, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[69/212] Рулет из нежной курочки с черносливом
+rulet_iz_nezhnoy_kurochki_s_chernoslivom.webp
+Professional food photography of sliced chicken roulade with prunes in the centre, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[70/212] Ассорти из солений (огурец мар, томаты черри марин, опята мар, черемша, капуста квашеная)
+assorti_iz_soleniy_ogurec_mar_tomaty_cherri_mari.webp
+Professional food photography of a platter of Russian pickles: cucumbers, cherry tomatoes, honey mushrooms, wild garlic and sauerkraut, arranged on a large white ceramic platter, soft natural side lighting, 40-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[71/212] Овощная тарелка: огурцы, помидоры, перец болгарский, зелень, маслины
+ovoschnaya_tarelka_ogurcy_pomidory_perec_bolgars.webp
+Professional food photography of a fresh vegetable platter of cucumbers, tomatoes, bell pepper, herbs and olives, arranged on a large white ceramic platter, soft natural side lighting, 40-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[72/212] Томаты фаршированные сыром и чесноком с зеленью
+tomaty_farshirovannye_syrom_i_chesnokom_s_zeleny.webp
+Professional food photography of tomatoes stuffed with cheese, garlic and fresh herbs, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[73/212] Сало в нарезке
+salo_v_narezke.webp
+Professional food photography of thinly sliced cured pork fat with peppercorns and herbs, arranged on a large white ceramic platter, soft natural side lighting, 40-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[74/212] Семга с лимоном
+semga_s_limonom.webp
+Professional food photography of thin slices of lightly salted salmon with lemon wedges, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[75/212] Сырное плато (4 вида сыра , апельсины, грец орехи, мед)
+syrnoe_plato_4_vida_syra_apelsiny_grec_orehi_med.webp
+Professional food photography of a cheese board with four kinds of cheese, orange segments, walnuts and honey, arranged on a large white ceramic platter, soft natural side lighting, 40-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[76/212] Сельдь с маринованным луком с молодым картофелем
+seld_s_marinovannym_lukom_s_molodym_kartofelem.webp
+Professional food photography of herring fillet with pickled onion and boiled baby potatoes, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[77/212] Рулетики из ростбифа с руколой и соусом тирияки
+ruletiki_iz_rostbifa_s_rukoloy_i_sousom_tiriyaki.webp
+Professional food photography of small roast beef rolls filled with rocket, glazed with teriyaki, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[78/212] Язык говяжий с хреном
+yazyk_govyazhiy_s_hrenom.webp
+Professional food photography of thin slices of boiled beef tongue with horseradish sauce, arranged on a dark slate serving board, soft natural side lighting, shallow depth of field, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[79/212] Салат Оливье с ветчиной
+salat_olive_s_vetchinoy.webp
+Professional food photography of a portion of Russian olivier salad with ham, potato, egg and pickled cucumber, served in a shallow matte white bowl, soft natural side lighting, 60-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[80/212] Салат Оливье с языком
+salat_olive_s_yazykom.webp
+Professional food photography of a portion of Russian olivier salad made with boiled beef tongue, served in a shallow matte white bowl, soft natural side lighting, 60-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[81/212] Салат "Элегант" (болгарский перец, морковь по коррейски , куринное филе )
+salat_elegant_bolgarskiy_perec_morkov_po_korreys.webp
+Professional food photography of a portion of salad with bell pepper, spicy korean carrot and chicken breast, served in a shallow matte white bowl, soft natural side lighting, 60-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[82/212] Салат Греческий
+salat_grecheskiy.webp
+Professional food photography of a portion of greek salad with cucumber, tomato, bell pepper, red onion, olives and feta, served in a shallow matte white bowl, soft natural side lighting, 60-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[83/212] Салат с хрустящими баклажанами (баклажаны, помидоры, сыр Фета, соус Тирияки, орехи грецкие, зелень)
+salat_s_hrustyaschimi_baklazhanami_baklazhany_po.webp
+Professional food photography of a portion of salad with crispy fried aubergine, tomato, feta, teriyaki glaze, walnuts and herbs, served in a shallow matte white bowl, soft natural side lighting, 60-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[84/212] Салат с виноградом и беконом (жаренный бекон, виноград, черри, айсберг, фисташки, заправка греческая)
+salat_s_vinogradom_i_bekonom_zharennyy_bekon_vin.webp
+Professional food photography of a portion of salad with fried bacon, grapes, cherry tomatoes, iceberg lettuce and pistachios, served in a shallow matte white bowl, soft natural side lighting, 60-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[85/212] Салат с креветками и яйцом пашот (креветки, айсберг, яйцо пашот, соус Трияки, кунжут)
+salat_s_krevetkami_i_yaycom_pashot_krevetki_aysb.webp
+Professional food photography of a portion of salad with prawns, iceberg lettuce, poached egg, teriyaki glaze and sesame, served in a shallow matte white bowl, soft natural side lighting, 60-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[86/212] Салат мясной (росбиф, говяжий язык, маринованные огурцы, маринованные опята, жаренные шампиньоны, черри, лук фри, майонез)
+salat_myasnoy_rosbif_govyazhiy_yazyk_marinovanny.webp
+Professional food photography of a portion of meat salad with roast beef, beef tongue, pickled cucumbers, honey mushrooms, fried champignons, cherry tomatoes and crispy fried onion, served in a shallow matte white bowl, soft natural side lighting, 60-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[87/212] Салат с креветками и моцареллой (креветки, моцарелла, свежие огурцы, черри, айсберг, заправка греческая, соус бальзамик, семечки тыквы)
+salat_s_krevetkami_i_mocarelloy_krevetki_mocarel.webp
+Professional food photography of a portion of salad with prawns, mozzarella, cucumber, cherry tomatoes, iceberg lettuce, balsamic and pumpkin seeds, served in a shallow matte white bowl, soft natural side lighting, 60-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[88/212] Салат из ростбифа с вялеными томатами и запеч овощами
+salat_iz_rostbifa_s_vyalenymi_tomatami_i_zapech_.webp
+Professional food photography of a portion of salad with roast beef, sun-dried tomatoes and roasted vegetables, served in a shallow matte white bowl, soft natural side lighting, 60-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[89/212] Салат Цезарь с креветками
+salat_cezar_s_krevetkami.webp
+Professional food photography of a portion of caesar salad with prawns, romaine, parmesan and croutons, served in a shallow matte white bowl, soft natural side lighting, 60-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[90/212] Салат Цезарь с куриным филе
+salat_cezar_s_kurinym_file.webp
+Professional food photography of a portion of caesar salad with roasted chicken breast, romaine, parmesan and croutons, served in a shallow matte white bowl, soft natural side lighting, 60-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[91/212] Салат Капрезе (томат,моцарела, соус песто)
+salat_kapreze_tomat_mocarela_sous_pesto.webp
+Professional food photography of a portion of caprese salad with tomato, mozzarella and pesto, served in a shallow matte white bowl, soft natural side lighting, 60-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[92/212] Салат Разнотравье с лососем и сегментами апельсина соус цитронет
+salat_raznotrave_s_lososem_i_segmentami_apelsina.webp
+Professional food photography of a portion of mixed leaf salad with salmon and orange segments in citronette dressing, served in a shallow matte white bowl, soft natural side lighting, 60-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[93/212] Салат с ветчиной и маринованными опятами с соусом айолли (домашний майонез)
+salat_s_vetchinoy_i_marinovannymi_opyatami_s_sou.webp
+Professional food photography of a portion of salad with ham and marinated honey mushrooms in homemade aioli, served in a shallow matte white bowl, soft natural side lighting, 60-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[94/212] Салат с копченой курицей , спаржей и белой фасолью
+salat_s_kopchenoy_kuricey_sparzhey_i_beloy_fasol.webp
+Professional food photography of a portion of salad with smoked chicken, asparagus and white beans, served in a shallow matte white bowl, soft natural side lighting, 60-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[95/212] Куриное филе маринованное с авторским маринадом
+kurinoe_file_marinovannoe_s_avtorskim_marinadom.webp
+Professional food photography of grilled marinated chicken skewers with sauce, raw onion rings and grilled vegetables, served on a matte white ceramic plate, soft natural side lighting, shallow depth of field, 45-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[96/212] Мини шашлык из лосося
+mini_shashlyk_iz_lososya.webp
+Professional food photography of mini skewers of salmon, served on a matte white ceramic plate, soft natural side lighting, shallow depth of field, 45-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[97/212] Жаркое на сковородке с вырезкой , шампиньонами , картофельными долькамии и малосольными огурчиками
+zharkoe_na_skovorodke_s_vyrezkoy_shampinonami_ka.webp
+Professional food photography of a rustic skillet roast with beef tenderloin, champignons, potato wedges and pickled cucumbers, served on a matte white ceramic plate, soft natural side lighting, shallow depth of field, 45-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[98/212] Свинина по грузински
+svinina_po_gruzinski.webp
+Professional food photography of georgian style grilled pork skewers with sauce, onion and herbs, served on a matte white ceramic plate, soft natural side lighting, shallow depth of field, 45-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[99/212] Ребра свинные на гриле
+rebra_svinnye_na_grile.webp
+Professional food photography of grilled pork ribs with a caramelised crust, served with sauce, served on a matte white ceramic plate, soft natural side lighting, shallow depth of field, 45-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[100/212] Цыпленок корнишен на вертеле
+cyplenok_kornishen_na_vertele.webp
+Professional food photography of a whole spit-roasted poussin with crisp golden skin, served on a matte white ceramic plate, soft natural side lighting, shallow depth of field, 45-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[101/212] Бифштекс гриль (говядина, курица)
+bifshteks_gril_govyadina_kurica.webp
+Professional food photography of a grilled minced beef steak patty with grill marks, served on a matte white ceramic plate, soft natural side lighting, shallow depth of field, 45-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[102/212] Стейк из лосося сырого веса с соусом тар-тар
+steyk_iz_lososya_syrogo_vesa_s_sousom_tar_tar.webp
+Professional food photography of a grilled salmon steak with tartar sauce and lemon, served on a matte white ceramic plate, soft natural side lighting, shallow depth of field, 45-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[103/212] Куриные крылышки маринованые в соусе барбекю
+kurinye_krylyshki_marinovanye_v_souse_barbekyu.webp
+Professional food photography of barbecue glazed chicken wings, sticky and caramelised, served on a matte white ceramic plate, soft natural side lighting, shallow depth of field, 45-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[104/212] Люля кебаб из говядины
+lyulya_kebab_iz_govyadiny.webp
+Professional food photography of a grilled beef lyulya kebab on a flat skewer, served on a matte white ceramic plate, soft natural side lighting, shallow depth of field, 45-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[105/212] Мини шашлык из курицы на шпажке с болг перцем, луком
+mini_shashlyk_iz_kuricy_na_shpazhke_s_bolg_perce.webp
+Professional food photography of mini chicken skewers with bell pepper and onion, served on a matte white ceramic plate, soft natural side lighting, shallow depth of field, 45-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[106/212] Плов в казане (свинина ) минимум 5 кг на дровах
+plov_v_kazane_svinina_minimum_5_kg_na_drovah.webp
+Professional food photography of pork plov rice pilaf in a large cast iron kazan cauldron, served on a matte white ceramic plate, soft natural side lighting, shallow depth of field, 45-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[107/212] Плов в казане (баранина ) минимум 5 кг на дровах
+plov_v_kazane_baranina_minimum_5_kg_na_drovah.webp
+Professional food photography of lamb plov rice pilaf in a large cast iron kazan cauldron, served on a matte white ceramic plate, soft natural side lighting, shallow depth of field, 45-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[108/212] Свинина в беконе (овощи+сыр)
+svinina_v_bekone_ovoschi_syr.webp
+Professional food photography of a pork roll stuffed with vegetables and cheese, wrapped in bacon and roasted, served on a matte white ceramic plate, soft natural side lighting, shallow depth of field, 45-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[109/212] Лангустины на гриле сырого веса?
+langustiny_na_grile_syrogo_vesa.webp
+Professional food photography of grilled langoustines with charred shells, served on a matte white ceramic plate, soft natural side lighting, shallow depth of field, 45-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[110/212] Нагетцы куриные
+nagetcy_kurinye.webp
+Professional food photography of golden breaded chicken nuggets with dipping sauce, served on a matte white ceramic plate, soft natural side lighting, shallow depth of field, 45-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[111/212] Охотничьи колбаски гриль
+ohotnichi_kolbaski_gril.webp
+Professional food photography of grilled hunter sausages with sauce, served on a matte white ceramic plate, soft natural side lighting, shallow depth of field, 45-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[112/212] Мини шашлык из семги с томатами чери
+mini_shashlyk_iz_semgi_s_tomatami_cheri.webp
+Professional food photography of mini salmon skewers with cherry tomatoes, served on a matte white ceramic plate, soft natural side lighting, shallow depth of field, 45-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[113/212] Креветки на шпажке жаренные
+krevetki_na_shpazhke_zharennye.webp
+Professional food photography of fried prawns on a wooden skewer, served on a matte white ceramic plate, soft natural side lighting, shallow depth of field, 45-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[114/212] Судак с овощами (цукини ,томаты , лук , оливки )
+sudak_s_ovoschami_cukini_tomaty_luk_olivki.webp
+Professional food photography of baked pike-perch fillet with courgette, tomatoes, onion and olives, served on a matte white ceramic plate, soft natural side lighting, shallow depth of field, 45-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[115/212] Рыбка запечная в золотистой панировке (треска, тар тар)
+rybka_zapechnaya_v_zolotistoy_panirovke_treska_t.webp
+Professional food photography of golden breaded cod fillet pieces with tartar sauce, served on a matte white ceramic plate, soft natural side lighting, shallow depth of field, 45-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[116/212] Морской окунь гриль
+morskoy_okun_gril.webp
+Professional food photography of a whole grilled sea bass with charred skin and lemon, served on a matte white ceramic plate, soft natural side lighting, shallow depth of field, 45-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[117/212] Камбала гриль
+kambala_gril.webp
+Professional food photography of a whole grilled flounder with lemon, served on a matte white ceramic plate, soft natural side lighting, shallow depth of field, 45-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[118/212] Буритто (тортилья, куриное филе, соус сальса,перец болг, салат, сыр, лук)
+buritto_tortilya_kurinoe_file_sous_salsa_perec_b.webp
+Professional food photography of a burrito wrap cut in half with chicken breast, salsa, bell pepper, lettuce, cheese and onion, served on a matte white ceramic plate, soft natural side lighting, shallow depth of field, 45-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[119/212] Буритто (тортилья, свинина, соус сальса,помидор, салат, сыр, лук)
+buritto_tortilya_svinina_sous_salsa_pomidor_sala.webp
+Professional food photography of a burrito wrap cut in half with pork, salsa, tomato, lettuce, cheese and onion, served on a matte white ceramic plate, soft natural side lighting, shallow depth of field, 45-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[120/212] Кесадилья с курицей (тортилья, куриное филе, кукуруза, сыр,соус сальса)
+kesadilya_s_kuricey_tortilya_kurinoe_file_kukuru.webp
+Professional food photography of a grilled quesadilla cut into wedges with chicken breast, sweetcorn, melted cheese and salsa, served on a matte white ceramic plate, soft natural side lighting, shallow depth of field, 45-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[121/212] Кесадилья с говяжьим фаршем (тортилья, помидоры, лук, фасоль кр, сыр)
+kesadilya_s_govyazhim_farshem_tortilya_pomidory_.webp
+Professional food photography of a grilled quesadilla cut into wedges with beef mince, tomatoes, onion, red beans and melted cheese, served on a matte white ceramic plate, soft natural side lighting, shallow depth of field, 45-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[122/212] Овощи Гриль (баклажан, цукини, перец болгарский)
+ovoschi_gril_baklazhan_cukini_perec_bolgarskiy.webp
+Professional food photography of grilled vegetables with char marks: aubergine, courgette and bell pepper, served on a matte white ceramic plate, soft natural side lighting, shallow depth of field, 45-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[123/212] Кукуруза
+kukuruza.webp
+Professional food photography of a boiled corn cob served hot with butter, served on a matte white ceramic plate, soft natural side lighting, shallow depth of field, 45-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[124/212] Шампиньоны на гриле
+shampinony_na_grile.webp
+Professional food photography of whole grilled champignon mushrooms with char marks, served on a matte white ceramic plate, soft natural side lighting, shallow depth of field, 45-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[125/212] Картофель беби запеченый
+kartofel_bebi_zapechenyy.webp
+Professional food photography of roasted baby potatoes in their skins with herbs, served on a matte white ceramic plate, soft natural side lighting, shallow depth of field, 45-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[126/212] Картофель фри (шарики)
+kartofel_fri_shariki.webp
+Professional food photography of crispy fried potato balls with dipping sauce, served on a matte white ceramic plate, soft natural side lighting, shallow depth of field, 45-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[127/212] Картофель по Итальянски с розмарином и куркумой
+kartofel_po_italyanski_s_rozmarinom_i_kurkumoy.webp
+Professional food photography of italian style roasted potato wedges with rosemary and turmeric, golden yellow, served on a matte white ceramic plate, soft natural side lighting, shallow depth of field, 45-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[128/212] Виноград
+vinograd.webp
+Professional food photography of a portion of fresh grapes on the vine, arranged on a white ceramic platter, soft natural side lighting, 45-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[129/212] Груша
+grusha.webp
+Professional food photography of a portion of fresh pear cut into slices, arranged on a white ceramic platter, soft natural side lighting, 45-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[130/212] Киви
+kivi.webp
+Professional food photography of a portion of fresh kiwi cut into slices, arranged on a white ceramic platter, soft natural side lighting, 45-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[131/212] Бананы
+banany.webp
+Professional food photography of a portion of fresh banana cut into rounds, arranged on a white ceramic platter, soft natural side lighting, 45-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[132/212] Ананас!! Цена за шт, по фактическому весу фрукта
+ananas_cena_za_sht_po_fakticheskomu_vesu_frukta.webp
+Professional food photography of a fresh pineapple cut into spears and arranged on a platter, arranged on a white ceramic platter, soft natural side lighting, 45-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[133/212] Мандарины
+mandariny.webp
+Professional food photography of a portion of fresh mandarins, peeled and segmented, arranged on a white ceramic platter, soft natural side lighting, 45-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[134/212] Апельсин
+apelsin.webp
+Professional food photography of a portion of fresh orange cut into slices, arranged on a white ceramic platter, soft natural side lighting, 45-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[135/212] Сезонные фрукты (уточнить вес и цену)
+sezonnye_frukty_utochnit_ves_i_cenu.webp
+Professional food photography of an assorted seasonal fruit platter with sliced fruit and berries, arranged on a white ceramic platter, soft natural side lighting, 45-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[136/212] Панаккота с малиновым вареньем ( персиковым )
+panakkota_s_malinovym_varenem_persikovym.webp
+Professional food photography of a creamy panna cotta topped with raspberry jam, served on a small white dessert plate, soft natural side lighting, shallow depth of field, 35-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[137/212] Мини - Тирамису в шоте
+mini_tiramisu_v_shote.webp
+Professional food photography of a mini tiramisu served in a small clear glass, dusted with cocoa, served on a small white dessert plate, soft natural side lighting, shallow depth of field, 35-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[138/212] Мини - Эклеры с сливочным кремом
+mini_eklery_s_slivochnym_kremom.webp
+Professional food photography of mini choux eclairs filled with vanilla cream, served on a small white dessert plate, soft natural side lighting, shallow depth of field, 35-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[139/212] Профитроли со сливочным кремом
+profitroli_so_slivochnym_kremom.webp
+Professional food photography of a choux pastry profiterole filled with vanilla cream, served on a small white dessert plate, soft natural side lighting, shallow depth of field, 35-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[140/212] Капкейки в ассортименте
+kapkeyki_v_assortimente.webp
+Professional food photography of assorted cupcakes with piped buttercream in pastel colours, served on a small white dessert plate, soft natural side lighting, shallow depth of field, 35-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[141/212] Донат в ассортименте
+donat_v_assortimente.webp
+Professional food photography of assorted glazed doughnuts in different colours, served on a small white dessert plate, soft natural side lighting, shallow depth of field, 35-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[142/212] Парфе Малиновое , Клубничное , Шоколадное
+parfe_malinovoe_klubnichnoe_shokoladnoe.webp
+Professional food photography of three frozen parfait desserts: raspberry, strawberry and chocolate, served on a small white dessert plate, soft natural side lighting, shallow depth of field, 35-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[143/212] Мини - Пирожные ( Корзинка ) от 15 шт.
+mini_pirozhnye_korzinka_ot_15_sht.webp
+Professional food photography of mini shortcrust basket pastries filled with cream and topped with berries, served on a small white dessert plate, soft natural side lighting, shallow depth of field, 35-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[144/212] Клубника Сливочный крем
+klubnika_slivochnyy_krem.webp
+Professional food photography of fresh strawberries served with a bowl of whipped vanilla cream, served on a small white dessert plate, soft natural side lighting, shallow depth of field, 35-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[145/212] Мини Пирожное Брауни
+mini_pirozhnoe_brauni.webp
+Professional food photography of a mini chocolate brownie square with a dense fudgy centre, served on a small white dessert plate, soft natural side lighting, shallow depth of field, 35-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[146/212] Хлеб
+hleb.webp
+Professional food photography of sliced rye and white bread arranged in a linen-lined basket, arranged in a woven basket lined with linen, soft natural side lighting, 40-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[147/212] Багет
+baget.webp
+Professional food photography of sliced fresh baguette with crisp crust in a linen-lined basket, arranged in a woven basket lined with linen, soft natural side lighting, 40-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[148/212] Лаваш
+lavash.webp
+Professional food photography of thin lavash flatbread folded on a wooden board, arranged in a woven basket lined with linen, soft natural side lighting, 40-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[149/212] Мини пирожок с мясом
+mini_pirozhok_s_myasom.webp
+Professional food photography of small baked hand pies filled with minced meat, arranged in a woven basket lined with linen, soft natural side lighting, 40-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[150/212] Мини пирожок с капустой
+mini_pirozhok_s_kapustoy.webp
+Professional food photography of small baked hand pies with cabbage, arranged in a woven basket lined with linen, soft natural side lighting, 40-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[151/212] Мини пирожок с яйцом
+mini_pirozhok_s_yaycom.webp
+Professional food photography of small baked hand pies with egg, arranged in a woven basket lined with linen, soft natural side lighting, 40-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[152/212] Мини пирожок с вишней
+mini_pirozhok_s_vishney.webp
+Professional food photography of small baked hand pies with cherry, arranged in a woven basket lined with linen, soft natural side lighting, 40-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[153/212] Мини пирожок с яблоком
+mini_pirozhok_s_yablokom.webp
+Professional food photography of small baked hand pies with apple, arranged in a woven basket lined with linen, soft natural side lighting, 40-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[154/212] Печенье в ассортименте
+pechene_v_assortimente.webp
+Professional food photography of assorted shortbread and butter cookies, arranged in a woven basket lined with linen, soft natural side lighting, 40-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[155/212] Сок в ассортименте
+sok_v_assortimente.webp
+Professional food photography of three glass pitchers of juice in different colours, served in clear glassware, soft natural side lighting, backlit, 20-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[156/212] Вода газ/не газ
+voda_gaz_ne_gaz.webp
+Professional food photography of two glass bottles of still and sparkling water with a glass, served in clear glassware, soft natural side lighting, backlit, 20-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[157/212] Чай с сахаром
+chay_s_saharom.webp
+Professional food photography of a glass cup of black tea with a sugar bowl beside it, served in clear glassware, soft natural side lighting, backlit, 20-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[158/212] Американо
+amerikano.webp
+Professional food photography of a cup of black americano coffee, served in clear glassware, soft natural side lighting, backlit, 20-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[159/212] Капучино
+kapuchino.webp
+Professional food photography of a cup of cappuccino with milk foam art, served in clear glassware, soft natural side lighting, backlit, 20-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[160/212] Морс ягодный
+mors_yagodnyy.webp
+Professional food photography of a glass pitcher of deep red berry mors drink with berries, served in clear glassware, soft natural side lighting, backlit, 20-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[161/212] Авторские лимонады (классический, мохито, блю-курасао, цитрусовый, ягодный)
+avtorskie_limonady_klassicheskiy_mohito_blyu_kur.webp
+Professional food photography of three glass lemonade dispensers with mint, citrus and berry lemonades, served in clear glassware, soft natural side lighting, backlit, 20-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[162/212] глинтвейн
+glintveyn.webp
+Professional food photography of a glass mug of hot mulled wine with cinnamon stick and orange slice, served in clear glassware, soft natural side lighting, backlit, 20-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[163/212] лимон нарезка
+limon_narezka.webp
+Professional food photography of thin lemon slices arranged in a fan, served in clear glassware, soft natural side lighting, backlit, 20-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[164/212] Покет "Гриль" (свинина гриль, соус, сыр, помидор)
+poket_gril_svinina_gril_sous_syr_pomidor.webp
+Professional food photography of a folded pocket flatbread sandwich with grilled pork, sauce, cheese and tomato, held in a paper wrapper on a wooden board, soft natural side lighting, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[165/212] Покет "Цезарь" (филе кур жар, соус цезарь, сыр, салат, помидор)
+poket_cezar_file_kur_zhar_sous_cezar_syr_salat_p.webp
+Professional food photography of a folded pocket flatbread sandwich with fried chicken breast, caesar dressing, cheese, lettuce and tomato, held in a paper wrapper on a wooden board, soft natural side lighting, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[166/212] Покет "Сыр-ветчина" (сыр, помидор, ветчина, соус, огурец)
+poket_syr_vetchina_syr_pomidor_vetchina_sous_ogu.webp
+Professional food photography of a folded pocket flatbread sandwich with cheese, ham, tomato, cucumber and sauce, held in a paper wrapper on a wooden board, soft natural side lighting, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[167/212] Покет "Азия" (свинина, огурец, сыр, майонез, горчица, салат)
+poket_aziya_svinina_ogurec_syr_mayonez_gorchica_.webp
+Professional food photography of a folded pocket flatbread sandwich with pork, cucumber, cheese, mayonnaise, mustard and lettuce, held in a paper wrapper on a wooden board, soft natural side lighting, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[168/212] (Хот-Дог : булка, сосиска, огурчик ,кетчуп,майонез,горчица)
+hot_dog_bulka_sosiska_ogurchik_ketchup_mayonez_g.webp
+Professional food photography of a hot dog in a soft bun with sausage, pickled cucumber, ketchup, mayonnaise and mustard, held in a paper wrapper on a wooden board, soft natural side lighting, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[169/212] Блин без начинки
+blin_bez_nachinki.webp
+Professional food photography of a stack of thin golden crepes, plain, held in a paper wrapper on a wooden board, soft natural side lighting, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[170/212] Блин с ветчиной и сыром
+blin_s_vetchinoy_i_syrom.webp
+Professional food photography of a thin crepe with ham cheese, held in a paper wrapper on a wooden board, soft natural side lighting, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[171/212] Блин с икрой
+blin_s_ikroy.webp
+Professional food photography of a thin crepe with caviar, held in a paper wrapper on a wooden board, soft natural side lighting, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[172/212] Блин с семгой
+blin_s_semgoy.webp
+Professional food photography of a thin crepe rolled with lightly salted salmon and cream cheese, held in a paper wrapper on a wooden board, soft natural side lighting, 30-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[173/212] Джемы в ассортименте, сгущенка, сметана
+dzhemy_v_assortimente_sguschenka_smetana.webp
+Professional food photography of small bowls of assorted fruit jams, condensed milk and sour cream, arranged on a large white ceramic platter, soft natural side lighting, 40-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[174/212] 2 Блюда
+2_blyuda.webp
+Professional food photography of a cooking masterclass station with chef knives, cutting board and fresh ingredients laid out, served on a matte white ceramic plate, soft natural side lighting, shallow depth of field, 45-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[175/212] (Пивная станция, стаканы оноразовые , чипсы, домашние гренки)
+pivnaya_stanciya_stakany_onorazovye_chipsy_domas.webp
+Professional food photography of a beer dispensing station with tap, disposable cups, crisps and homemade croutons, served on a matte white ceramic plate, soft natural side lighting, shallow depth of field, 45-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[176/212] (Лимонады 3 вида, чай,кофе, мини печенье, леденцы, маршмеллоу, зефир, цветной поп-корн, мини конфеты, капкейки, безе)
+limonady_3_vida_chay_kofe_mini_pechene_ledency_m.webp
+Professional food photography of a pastel candy bar table with three lemonade dispensers, cookies, lollipops, marshmallows, meringues, popcorn and cupcakes, served on a matte white ceramic plate, soft natural side lighting, shallow depth of field, 45-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[177/212] Шоколадный фонтан (Аренда без шоколада)
+shokoladnyy_fontan_arenda_bez_shokolada.webp
+Professional food photography of an empty stainless steel chocolate fountain machine, switched off, served on a matte white ceramic plate, soft natural side lighting, shallow depth of field, 45-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[178/212] Шоколадный фонтан (Аренда с шоколадом)
+shokoladnyy_fontan_arenda_s_shokoladom.webp
+Professional food photography of a running chocolate fountain with flowing melted chocolate and fruit skewers around it, served on a matte white ceramic plate, soft natural side lighting, shallow depth of field, 45-degree angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[179/212] Сервировка фуршетными стеклами с подставками (до 10 персон)
+servirovka_furshetnymi_steklami_s_podstavkami_do.webp
+Professional product photography of a tiered stand with cocktail glassware arranged for a standing reception, standing alone as a clean product shot, even soft studio lighting, straight-on eye-level angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[180/212] Сервировка стола до 10 персон
+servirovka_stola_do_10_person.webp
+Professional product photography of an elegantly laid banquet table setting for one guest: plates, cutlery, glassware and folded napkin, standing alone as a clean product shot, even soft studio lighting, straight-on eye-level angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[181/212] Официант (до 10 часов работы(последующий час 500 рублей)
+oficiant_do_10_chasov_raboty_posleduyuschiy_chas.webp
+Professional product photography of a folded white waiter uniform with black bow tie and serving napkin on a tray, standing alone as a clean product shot, even soft studio lighting, straight-on eye-level angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[182/212] Повар (до 10 часов работы(последующий час 500 рублей)
+povar_do_10_chasov_raboty_posleduyuschiy_chas_50.webp
+Professional product photography of a folded white chef jacket with apron and chef knife roll, standing alone as a clean product shot, even soft studio lighting, straight-on eye-level angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[183/212] Мангал стандарт 1,5 м
+mangal_standart_1_5_m.webp
+Professional product photography of a 1.5 metre steel barbecue grill brazier, standing alone as a clean product shot, even soft studio lighting, straight-on eye-level angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[184/212] Мангал 1,2 м
+mangal_1_2_m.webp
+Professional product photography of a 1.2 metre steel barbecue grill brazier, standing alone as a clean product shot, even soft studio lighting, straight-on eye-level angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[185/212] Мангал барбекю (без учета доставки)
+mangal_barbekyu_bez_ucheta_dostavki.webp
+Professional product photography of a barbecue grill with cooking grate, standing alone as a clean product shot, even soft studio lighting, straight-on eye-level angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[186/212] Казан 10 л (без учета доставки)
+kazan_10_l_bez_ucheta_dostavki.webp
+Professional product photography of a 10 litre cast iron kazan cauldron on a stand, standing alone as a clean product shot, even soft studio lighting, straight-on eye-level angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[187/212] Кофемашина (в аренду 1 сутки)
+kofemashina_v_arendu_1_sutki.webp
+Professional product photography of a professional espresso coffee machine, standing alone as a clean product shot, even soft studio lighting, straight-on eye-level angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[188/212] Стол 6 посадок (без доставки)
+stol_6_posadok_bez_dostavki.webp
+Professional product photography of a folding banquet table for six, standing alone as a clean product shot, even soft studio lighting, straight-on eye-level angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[189/212] Стол коктельный с чехлом
+stol_koktelnyy_s_chehlom.webp
+Professional product photography of a tall cocktail table with white stretch cover, standing alone as a clean product shot, even soft studio lighting, straight-on eye-level angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[190/212] Стул ( без доставки)
+stul_bez_dostavki.webp
+Professional product photography of a folding banquet chair, standing alone as a clean product shot, even soft studio lighting, straight-on eye-level angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[191/212] Бойлер 10 л.
+boyler_10_l.webp
+Professional product photography of a 10 litre stainless steel water boiler urn, standing alone as a clean product shot, even soft studio lighting, straight-on eye-level angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[192/212] Бойлер 20 л.
+boyler_20_l.webp
+Professional product photography of a 20 litre stainless steel water boiler urn, standing alone as a clean product shot, even soft studio lighting, straight-on eye-level angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[193/212] Блинница двойная
+blinnica_dvoynaya.webp
+Professional product photography of a professional double crepe maker, standing alone as a clean product shot, even soft studio lighting, straight-on eye-level angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[194/212] Самовар 50 л.
+samovar_50_l.webp
+Professional product photography of a large 50 litre traditional samovar, standing alone as a clean product shot, even soft studio lighting, straight-on eye-level angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[195/212] Шампура 10 шт.
+shampura_10_sht.webp
+Professional product photography of a bundle of ten metal barbecue skewers, standing alone as a clean product shot, even soft studio lighting, straight-on eye-level angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[196/212] Чафингдиш с горелками
+chafingdish_s_gorelkami.webp
+Professional product photography of a stainless steel chafing dish with fuel burners, lid open, standing alone as a clean product shot, even soft studio lighting, straight-on eye-level angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[197/212] Банкетный комплект посуды (2 сервировочные тарелки, вилка , нож, бокал, стакан, стопка, салфетка)
+banketnyy_komplekt_posudy_2_servirovochnye_tarel.webp
+Professional product photography of a full place setting: two service plates, fork, knife, wine glass, tumbler, shot glass and napkin, standing alone as a clean product shot, even soft studio lighting, straight-on eye-level angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[198/212] Аренда бокалов
+arenda_bokalov.webp
+Professional product photography of a group of clear wine glasses, standing alone as a clean product shot, even soft studio lighting, straight-on eye-level angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[199/212] Аренда чайной пары для чая/кофе
+arenda_chaynoy_pary_dlya_chaya_kofe.webp
+Professional product photography of a white porcelain tea cup and saucer, standing alone as a clean product shot, even soft studio lighting, straight-on eye-level angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[200/212] Горка Стеклянная
+gorka_steklyannaya.webp
+Professional product photography of a tiered glass serving stand, standing alone as a clean product shot, even soft studio lighting, straight-on eye-level angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[201/212] Сервировочные блюда в ассортименте
+servirovochnye_blyuda_v_assortimente.webp
+Professional product photography of assorted white ceramic serving dishes of different shapes, standing alone as a clean product shot, even soft studio lighting, straight-on eye-level angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[202/212] Графин
+grafin.webp
+Professional product photography of a clear glass carafe, standing alone as a clean product shot, even soft studio lighting, straight-on eye-level angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[203/212] Лимонадник
+limonadnik.webp
+Professional product photography of a 5 litre glass lemonade dispenser with tap, standing alone as a clean product shot, even soft studio lighting, straight-on eye-level angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[204/212] Салатник
+salatnik.webp
+Professional product photography of a white ceramic salad bowl, standing alone as a clean product shot, even soft studio lighting, straight-on eye-level angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[205/212] Мармид
+marmid.webp
+Professional product photography of a stainless steel food warmer marmite, standing alone as a clean product shot, even soft studio lighting, straight-on eye-level angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[206/212] Скатерть белая
+skatert_belaya.webp
+Professional product photography of a white banquet tablecloth draped over a table, standing alone as a clean product shot, even soft studio lighting, straight-on eye-level angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[207/212] Скатерть бежевая
+skatert_bezhevaya.webp
+Professional product photography of a beige banquet tablecloth draped over a table, standing alone as a clean product shot, even soft studio lighting, straight-on eye-level angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[208/212] Скатерть "Юбка" (белый, красный)
+skatert_yubka_belyy_krasnyy.webp
+Professional product photography of a banquet table with a pleated white skirting cover, standing alone as a clean product shot, even soft studio lighting, straight-on eye-level angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[209/212] Салфетка тканевая
+salfetka_tkanevaya.webp
+Professional product photography of a folded white linen napkin, standing alone as a clean product shot, even soft studio lighting, straight-on eye-level angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[210/212] Скатерти "Парашюты" (белый, зеленый)
+skaterti_parashyuty_belyy_zelenyy.webp
+Professional product photography of a long white banquet tablecloth on a rectangular table, standing alone as a clean product shot, even soft studio lighting, straight-on eye-level angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[211/212] Декор
+dekor.webp
+Professional product photography of a minimal table decoration set with candles and greenery, standing alone as a clean product shot, even soft studio lighting, straight-on eye-level angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
+[212/212] Доставка и погрузка
+dostavka.webp
+Professional product photography of insulated catering delivery bags and stacked food transport containers, standing alone as a clean product shot, even soft studio lighting, straight-on eye-level angle, clean neutral light-beige background, restaurant catering presentation, no hands, no text, no logo, no props, photorealistic, realistic natural detail, captured on a professional full-frame camera with a 50mm prime lens, natural perspective and realistic optical depth, natural irregular non-repeating surface textures, subtle organic imperfections, no repetitive tiled or grid-like microtexture, no oversharpening, 4:3 aspect ratio.
+
